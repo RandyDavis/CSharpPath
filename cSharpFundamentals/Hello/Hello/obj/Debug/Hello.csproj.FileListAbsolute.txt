@@ -1,0 +1,6 @@
+C:\Users\davirand\Development\Tutorials\cSharp\CSharpPath\cSharpFundamentals\Hello\Hello\bin\Debug\Hello.exe.config
+C:\Users\davirand\Development\Tutorials\cSharp\CSharpPath\cSharpFundamentals\Hello\Hello\bin\Debug\Hello.exe
+C:\Users\davirand\Development\Tutorials\cSharp\CSharpPath\cSharpFundamentals\Hello\Hello\bin\Debug\Hello.pdb
+C:\Users\davirand\Development\Tutorials\cSharp\CSharpPath\cSharpFundamentals\Hello\Hello\obj\Debug\Hello.csprojResolveAssemblyReference.cache
+C:\Users\davirand\Development\Tutorials\cSharp\CSharpPath\cSharpFundamentals\Hello\Hello\obj\Debug\Hello.exe
+C:\Users\davirand\Development\Tutorials\cSharp\CSharpPath\cSharpFundamentals\Hello\Hello\obj\Debug\Hello.pdb
