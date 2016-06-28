@@ -18,6 +18,6 @@ namespace Grades
             grades.Add(grade);
         }
 
-        List<float> grades;
+        private List<float> grades;
     }
 }
