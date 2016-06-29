@@ -14,7 +14,7 @@ namespace Grades
 
             book.NameChanged += new NameChangedDelegate(OnNameChanged);
             book.NameChanged += new NameChangedDelegate(OnNameChanged2);
-            book.Name = null;
+            book.Namechanged = null;
             book.Name = "Randy's Grade Book";
             book.Name = "Grade Book";
             book.Name = null;
