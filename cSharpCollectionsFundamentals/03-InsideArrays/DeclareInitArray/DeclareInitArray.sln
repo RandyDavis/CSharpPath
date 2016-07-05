@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeclareInitArray", "DeclareInitArray\DeclareInitArray.csproj", "{23C4313A-4521-47BC-99E8-313C72D6B47C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23C4313A-4521-47BC-99E8-313C72D6B47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C4313A-4521-47BC-99E8-313C72D6B47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C4313A-4521-47BC-99E8-313C72D6B47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C4313A-4521-47BC-99E8-313C72D6B47C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
