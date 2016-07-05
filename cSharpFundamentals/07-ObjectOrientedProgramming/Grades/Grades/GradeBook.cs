@@ -15,7 +15,7 @@ namespace Grades
             grades = new List<float>();
         }
 
-        public GradeStatistics ComputeStatistics()
+        public virtual GradeStatistics ComputeStatistics()
         {
             Console.WriteLine("GradeBookComputeStatistics");
             GradeStatistics stats = new GradeStatistics();
