@@ -21,20 +21,21 @@ namespace BasicArrayOps
                 "Saturday",
                 "Sunday"
             };
-            Console.WriteLine(daysOfWeek[7]);
+            // Console.WriteLine(daysOfWeek[7]);
             // daysOfWeek[5] = "PartyDay";
+
             /*
             Console.WriteLine("Type in index of day to look up> ");
             int day = int.Parse(Console.ReadLine());
             Console.WriteLine(daysOfWeek[day]);
             */
 
-
+            /*
             foreach (string day in daysOfWeek)
             {
                 Console.WriteLine(day);
             }
-
+            */
 
         }
     }
