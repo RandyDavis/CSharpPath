@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0EC1215-0B2F-4681-9404-1C11CD8EA428}</ProjectGuid>
+    <ProjectGuid>{0A35FA2C-6EF8-4C01-8864-684BD4370250}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Grades</RootNamespace>
-    <AssemblyName>Grades</AssemblyName>
+    <RootNamespace>BasicArrayOps</RootNamespace>
+    <AssemblyName>BasicArrayOps</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,15 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GradeBook.cs" />
-    <Compile Include="GradeStatistics.cs" />
-    <Compile Include="GradeTracker.cs" />
-    <Compile Include="IGradeTracker.cs" />
-    <Compile Include="NameChangedDelegate.cs" />
-    <Compile Include="NameChangedEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThrowAwayGradeBook.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
