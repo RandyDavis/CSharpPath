@@ -16,6 +16,10 @@ namespace ArrayTyping
                 4,
                 new Button {Text = "CLick me!" }
             };
+            Type objArrType = objArray.GetType();
+
+            string[] strArray = new string[2];
+            Type strArrType = strArray.GetType();
 
             foreach (object item in objArray)
             {
