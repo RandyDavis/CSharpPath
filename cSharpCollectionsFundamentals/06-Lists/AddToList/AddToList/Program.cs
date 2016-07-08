@@ -18,27 +18,19 @@ namespace AddToList
                 "Bill Clinton",
                 "George W Bush"
             };
-            Console.WriteLine("Before: ");
-            Console.WriteLine("Count= " + presidents.Count);
-            Console.WriteLine("Capacity = " + presidents.Capacity + "\r\n");
             presidents.Add("Barack Obama");
-            presidents.Add("Bill Gates");
-            presidents.Add("Joss Whedon");
-            presidents.Add("John Papa");
+            var copy = presidents.AsReadOnly();
 
-            /* REMOVE an item
-            presidents.Remove("Bill Gates");  // Expensive if item to be removed is at beginning of list
-            presidents.RemoveAt(5);  // Always better to use this one
-            */
-            Console.WriteLine("\r\nAfter adding: ");
-            Console.WriteLine("Count= " + presidents.Count);
-            Console.WriteLine("Capacity = " + presidents.Capacity + "\r\n");
-
-            // string who = presidents[10];  // Shows out of range exception
+            BadCode(copy);
             foreach (string president in presidents)
             {
                 Console.WriteLine(president);
             }
+        }
+
+        static void BadCode(IList<string> lst)
+        {
+            lst.RemoveAt(2);
         }
     }
 }
