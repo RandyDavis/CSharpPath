@@ -75,7 +75,8 @@ namespace PrimeMinisters
 
         public int GetHashCode(string obj)
         {
-            return obj.GetHashCode();
+            // Writing a Custom Equality Comparer
+            return obj.ToUpper().GetHashCode();
         }
     }
 }
