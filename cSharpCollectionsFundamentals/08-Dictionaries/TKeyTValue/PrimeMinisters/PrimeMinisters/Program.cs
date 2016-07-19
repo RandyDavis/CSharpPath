@@ -19,7 +19,7 @@ namespace PrimeMinisters
 
             foreach (var pm in primeMinisters)
             {
-                Console.WriteLine(pm);
+                Console.WriteLine(pm.Key + ",   " + pm.Value);
             }
         }
     }
