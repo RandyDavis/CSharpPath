@@ -11,7 +11,8 @@ namespace PrimeMinisters
         static void Main(string[] args)
         {
             var primeMinisters = new Dictionary<string, PrimeMinister>
-                (StringComparer.InvariantCultureIgnoreCase) // Added for lesson Comparing Keys with IEqualityComparer<T>
+                // (StringComparer.InvariantCultureIgnoreCase) // Added for lesson Comparing Keys with IEqualityComparer<T>
+                (new UncasedStringEqualityComparer())
             {
                 {"JC", new PrimeMinister("James Callaghan", 1976) },
                 {"MT", new PrimeMinister("Margaret Thatcher", 1979) },
@@ -74,7 +75,7 @@ namespace PrimeMinisters
 
         public int GetHashCode(string obj)
         {
-            throw new NotImplementedException();
+            return obj.GetHashCode();
         }
     }
 }
