@@ -17,7 +17,7 @@ namespace PrimeMinisters
                 {"TB", new PrimeMinister("Tony Blair", 1997) }
             };
 
-            /*
+            /* Enumerating Dictionary Items
             foreach (var pm in primeMinisters)
             {
                 Console.WriteLine(pm.Key + ",   " + pm.Value);
@@ -27,6 +27,7 @@ namespace PrimeMinisters
             //PrimeMinister pm = primeMinisters["TB"];
             //Console.WriteLine("Value is: " + pm.ToString() + "\r\n");
 
+            /* Looking up Dictionary Items
             // Same code as above but tries to lookup value without throwing an exception
             PrimeMinister pm;
             bool found = primeMinisters.TryGetValue("DC", out pm);
@@ -38,7 +39,20 @@ namespace PrimeMinisters
             {
                 Console.WriteLine("Value is not in the dictionary");
             }
+            */
 
+            /*
+            // Modifying the Dictionary
+            primeMinisters["JC"] = new PrimeMinister("Jim Callaghan", 1976);
+            primeMinisters.Remove("JC");
+            primeMinisters["JM"] = new PrimeMinister("John Major", 1990);
+            primeMinisters.Add("GB", new PrimeMinister("Gordon Brown", 2007));
+
+            foreach (var pm in primeMinisters)
+            {
+                Console.WriteLine(pm);
+            }
+            */
         }
     }
 }
