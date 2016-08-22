@@ -19,6 +19,8 @@ namespace KeyedCollectionDemo
                 new PrimeMinister("Tony Blair", 1997)
             };
             primeMinisters.Add(new PrimeMinister("John Major", 1990));
+            var list = (IList<PrimeMinister>)primeMinisters;
+            Console.WriteLine("First PM is " + list[0]);
 
             Console.WriteLine("Tony is " + primeMinisters[1997]);
 
