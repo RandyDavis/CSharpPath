@@ -11,7 +11,7 @@ namespace SortedWithComparer
     {
         static void Main(string[] args)
         {
-            var primeMinisters = new SortedList<string, PrimeMinister>(new UncasedStringComparer())
+            var primeMinisters = new SortedDictionary<string, PrimeMinister>(new UncasedStringComparer())
             {
                 {"JC", new PrimeMinister("James Callaghan", 1976) },
                 {"MT", new PrimeMinister("Margaret Thatcher", 1979) },
