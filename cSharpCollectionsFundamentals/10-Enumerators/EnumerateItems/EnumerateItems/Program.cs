@@ -20,9 +20,11 @@ namespace EnumerateItems
                 "Saturday",
                 "Sunday"
             };
-            //DisplayItems(daysOfWeek);
-            DisplayItems("Hello, world!");
+           
+            DisplayItems2(daysOfWeek);
+            //DisplayItems("Hello, world!");
         }
+
 
         public static void DisplayItems<T>(IEnumerable<T> collection)
         {
@@ -35,6 +37,14 @@ namespace EnumerateItems
                     Console.WriteLine(item);
                     moreItems = enumerator.MoveNext();
                 }
+            }
+        }
+
+        public static void DisplayItems2<T>(IEnumerable<T> collection)
+        {
+            foreach (T item in collection)
+            {
+                Console.WriteLine(item);
             }
         }
     }
