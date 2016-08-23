@@ -14,9 +14,9 @@ namespace MultiDimenstionArray
             Console.WriteLine("The length is " + tempsGrid.Length);
             Console.WriteLine("The rank is " + tempsGrid.Rank);
 
-            for (int x = 0; x < tempsGrid.GetLength(0); x++)
+            for (int x = tempsGrid.GetLowerBound(0); x <= tempsGrid.GetUpperBound(0); x++)
             {
-                for (int y = 0; y < tempsGrid.GetLength(1); y++)
+                for (int y = tempsGrid.GetLowerBound(1); y <= tempsGrid.GetUpperBound(1); y++)
                 {
                     tempsGrid[x, y] = x + 10 * y;
                 }
