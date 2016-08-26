@@ -34,4 +34,17 @@ namespace Library
         }
     }
 
+    public class Catalog : ISaveable, IVoidSaveable
+    {
+        void IVoidSaveable.Save()
+        {
+            throw new NotImplementedException();
+        }
+
+        string ISaveable.Save()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
 }
