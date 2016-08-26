@@ -47,4 +47,18 @@ namespace Library
         }
     }
 
+    public class EnumerableCatalog : IEnumerable<string>
+    {
+        public IEnumerator<string> GetEnumerator()
+        {
+            // all of our code
+            return null;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
+        }
+    }
+
 }
