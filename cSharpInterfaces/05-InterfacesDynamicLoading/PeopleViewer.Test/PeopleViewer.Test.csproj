@@ -59,6 +59,10 @@
       <Project>{d85fbe12-9358-47a4-89d1-3a291ff371d2}</Project>
       <Name>PeopleViewer.Layered</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PersonRepository.Fake\PersonRepository.Fake.csproj">
+      <Project>{05fb3036-6617-46e3-87b5-af80002d8d73}</Project>
+      <Name>PersonRepository.Fake</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PersonRepository.Interface\PersonRepository.Interface.csproj">
       <Project>{07234eac-b32f-4769-a4c5-83209a858829}</Project>
       <Name>PersonRepository.Interface</Name>
