@@ -11,6 +11,7 @@ namespace PeopleViewer.Test
         [TestInitialize]
         public void Setup()
         {
+            FakeRepository repository = new FakeRepository();
             SimpleContainer.MapInstance<IPersonRepository>(new FakeRepository());
         }
 
