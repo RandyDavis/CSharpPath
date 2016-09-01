@@ -8,9 +8,8 @@ namespace OdeToFood.Controllers
 {
     public class CuisineController : Controller
     {
-        //
-        // GET: /Cuisine/
-
+        
+        [HttpPost]
         public ActionResult Search(string name = "French")
         {
             var message = Server.HtmlEncode(name);
@@ -18,7 +17,14 @@ namespace OdeToFood.Controllers
             //return RedirectToAction("Index", "Home", new { name = name });
             //return RedirectToRoute("Default", new { controller = "Home", action = "About" });
             //return File(Server.MapPath("~/Content/site.css"), "text/css");
-            return Json(new { Message = message, Name = "Jim" }, JsonRequestBehavior.AllowGet);
+            //return Json(new { Message = message, Name = "Jim" }, JsonRequestBehavior.AllowGet);
+            return Content(message);
+        }
+
+        [HttpGet]
+        public ActionResult Search()
+        {
+            return Content("Search!");
         }
 
     }
