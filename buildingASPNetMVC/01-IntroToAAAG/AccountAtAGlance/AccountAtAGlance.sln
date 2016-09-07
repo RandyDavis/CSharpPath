@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountAtAGlance", "AccountAtAGlance\AccountAtAGlance.csproj", "{75126529-DB89-4CB9-915A-013845DB9AEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountAtAGlance.Model", "AccountAtAGlance.Model\AccountAtAGlance.Model.csproj", "{115E8AF0-131D-41C5-81EC-8A0B01B24207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountAtAGlance.Repository", "AccountAtAGlance.Repository\AccountAtAGlance.Repository.csproj", "{CA5DEB5B-EAAC-4623-9636-7A939E2659E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75126529-DB89-4CB9-915A-013845DB9AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75126529-DB89-4CB9-915A-013845DB9AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75126529-DB89-4CB9-915A-013845DB9AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75126529-DB89-4CB9-915A-013845DB9AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115E8AF0-131D-41C5-81EC-8A0B01B24207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115E8AF0-131D-41C5-81EC-8A0B01B24207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115E8AF0-131D-41C5-81EC-8A0B01B24207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115E8AF0-131D-41C5-81EC-8A0B01B24207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5DEB5B-EAAC-4623-9636-7A939E2659E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5DEB5B-EAAC-4623-9636-7A939E2659E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5DEB5B-EAAC-4623-9636-7A939E2659E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5DEB5B-EAAC-4623-9636-7A939E2659E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
