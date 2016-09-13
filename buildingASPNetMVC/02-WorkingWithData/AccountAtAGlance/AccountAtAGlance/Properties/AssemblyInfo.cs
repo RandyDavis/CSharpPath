@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("AccountAtAGlance")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Hewlett Packard Enterprise")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("AccountAtAGlance")]
-[assembly: AssemblyCopyright("Copyright © Hewlett Packard Enterprise 2016")]
+[assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e7bab443-f4ea-446a-9da3-431ff8852ce3")]
+[assembly: Guid("41e710cd-e28c-402a-868f-c483d5c2836b")]
 
 // Version information for an assembly consists of the following four values:
 //
