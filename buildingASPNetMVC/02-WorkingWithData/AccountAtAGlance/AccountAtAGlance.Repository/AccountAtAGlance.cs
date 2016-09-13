@@ -1,10 +1,9 @@
-﻿using AccountAtAGlance.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Data.Entity;
+using AccountAtAGlance.Model;
 
 namespace AccountAtAGlance.Repository
 {
@@ -29,18 +28,17 @@ namespace AccountAtAGlance.Repository
             modelBuilder.Entity<MutualFund>().ToTable("Securities_MutualFund");
 
             modelBuilder.Entity<WatchList>()
-                    .HasMany(w => w.Securities).WithMany()
-                    .Map(map => map.ToTable("WatchListSecurity")
-                    .MapRightKey("SecurityId")
-                    .MapLeftKey("WatchListId"));
+                .HasMany(w => w.Securities).WithMany()
+                .Map(map => map.ToTable("WatchListSecurity")
+                .MapRightKey("SecurityId")
+                .MapLeftKey("WatchListId"));
         }
 
-        // How to use stored procedures -- in this case to delete accounts and Securities and Exchanges
         public int DeleteAccounts()
-        { 
-            // return base.Database.SqlCommand("DeleteAccounts");
+        {
             return Database.ExecuteSqlCommand("DeleteAccounts");
         }
+
         public int DeleteSecuritiesAndExchanges()
         {
             return Database.ExecuteSqlCommand("DeleteSecuritiesAndExchanges");
